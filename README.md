@@ -33,20 +33,14 @@ VoiceXChange is a modern, user-friendly web application that translates spoken l
 
 ###  Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AdarshXKumAR/AI-Voice-Translator.git
-   cd AI-Voice-Translator
-   ```
-
-2. Create a virtual environment and install dependencies:
+1. Create a virtual environment and install dependencies:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-3. Create a `.env.local` file in the project root with your API keys:
+2. Create a `.env.local` file in the project root with your API keys:
    ```
    ASSEMBLYAI_API_KEY=your_assemblyai_api_key
    ```
